@@ -1,0 +1,77 @@
+/* main_info section style */
+#intro {
+  background: url("https://www.spacex.com/static/images/backgrounds/dm2_cockpit_desktop.webp")
+    50% 0 no-repeat fixed;
+  background-size: cover;
+  color: white;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0;
+}
+/* main_info section text style */
+#intro .main_text {
+  width: 90%;
+  text-align: left;
+  margin-top: 300px;
+}
+#intro .main_text p {
+  line-height: 2;
+}
+#intro .main_text h1 {
+  font-size: 50px;
+  text-align: left;
+}
+#intro .main_text a {
+  margin-left: 0;
+  width: 200px;
+}
+#intro .main_text a span {
+  color: #fff;
+}
+/* main_info  second section style */
+#second_ride {
+  height: 60vh;
+}
+#second_ride .main_stats {
+  width: 90%;
+}
+#second_ride .main_stats .stats {
+  width: 50%;
+}
+#second_ride .main_stats .stats {
+  padding: 60px 20px;
+  box-sizing: border-box;
+  text-align: left;
+}
+.main_stats .stats p {
+  margin: 5px;
+  line-height: 1.6;
+}
+/* main_info other section style */
+#fifth {
+  background: url(../img/issgraphic_desktop.jpg) 50% 0 no-repeat fixed;
+  background-size: cover;
+  color: white;
+  height: 100vh;
+  padding: 100px 0 0 0;
+}
+#third {
+  background: black;
+  color: white;
+  height: 100vh;
+  padding: 100px 0 0 0;
+}
+#third h1 {
+  font-size: 35px;
+  margin-left: 5%;
+}
+.demo {
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  background: url("https://www.spacex.com/static/images/updates/demo-2_article.jpg")
+    no-repeat center bottom;
+  background-size: cover;
+  left: 50%;
+  transform: translateX(-50%);
+}

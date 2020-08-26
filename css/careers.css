@@ -1,0 +1,67 @@
+/* main_info section style */
+#intro {
+  background: url("https://www.spacex.com/static/images/backgrounds/careers_future.webp")
+    50% 0 no-repeat fixed;
+  background-size: cover;
+  color: white;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0;
+}
+/* main_info section text style */
+#intro .main_text p {
+  width: 60%;
+  margin: 20px auto 10px;
+}
+#intro .main_text .select_section .select_item {
+  width: 400px;
+
+  display: block;
+  margin: auto;
+  padding: 17px 20px;
+}
+#intro .main_text .select_section .select_a {
+  width: 200px;
+  margin-top: 40px;
+  padding-top: 5px;
+  height: 50px;
+}
+/* main_info  second section style */
+#second_ride .main_stats .stats {
+  padding: 60px 20px;
+  box-sizing: border-box;
+  text-align: center;
+  width: 100%;
+}
+#second_ride .main_stats .stats h2 {
+  display: block;
+  font-size: 27px;
+  margin: 5px;
+}
+.main_stats .stats p {
+  margin: auto;
+  width: 80%;
+  line-height: 1.5;
+}
+/* main_info other section style */
+#fifth {
+  background: url("https://www.spacex.com/static/images/backgrounds/careers_inspiration.webp")
+    50% 0 no-repeat fixed;
+  background-size: cover;
+  color: white;
+  height: 100vh;
+  padding: 100px 0 0 0;
+}
+#fifth .main_text {
+  width: 80%;
+  margin: auto;
+}
+#fifth .main_text p {
+  text-align: center;
+  margin-top: 600px;
+  font-size: 16px;
+}
+#fifth .main_text p em {
+  font-size: 18px;
+  font-style: normal;
+}

@@ -1,0 +1,273 @@
+/* main_info section style */
+#intro {
+  background: url("https://www.spacex.com/static/images/backgrounds/f9_feature.webp")
+    50% 0 no-repeat fixed;
+  background-size: cover;
+  color: white;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0;
+  -webkit-animation: fadein 2s;
+}
+#second {
+  background: black 50% 0 no-repeat fixed;
+  background-size: cover;
+  color: #fff;
+  height: 40vh;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+#third {
+  background: url("https://www.spacex.com/static/images/falcon-9/desktop/WebsiteF9Fairings_Lines_Desktop.webp")
+    50% 0 no-repeat fixed;
+  background-size: cover;
+  color: white;
+  height: 200vh;
+  padding: 100px 0 0 0;
+}
+#fifth {
+  background: url("https://www.spacex.com/static/images/falcon-9/F9_8.webp") 50%
+    0 no-repeat fixed;
+  background-size: cover;
+  color: white;
+  height: 100vh;
+  padding: 40px 0 0 0;
+}
+#story {
+  background: black;
+  color: white;
+  height: 50vh;
+  padding: 20px 0 0 0;
+}
+/* main_info section text style */
+.main_info h1 {
+  font-size: 120px;
+}
+.main_info p {
+  font-size: 20px;
+}
+.main_first .main_text {
+  width: 100%;
+  height: auto;
+  margin: 15% auto 0;
+  /* margin-top: 30%; */
+  text-align: center;
+}
+/* stats style */
+.main_stats {
+  width: 60%;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+  box-sizing: border-box;
+}
+.main_stats .stats {
+  width: 33.33%;
+  height: auto;
+  float: left;
+  text-align: center;
+}
+.main_stats .stats .count {
+  width: 100%;
+  height: auto;
+  color: #fff;
+  font-size: 100px;
+  padding: 70px 30px 0 30px;
+}
+.main_stats .stats .count_title {
+  width: 100%;
+  height: auto;
+  color: #fff;
+  font-size: 20px;
+  padding: 0 30px 70px 30px;
+}
+/* reveal section style */
+.reveal_left {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.reveal_left_side {
+  position: absolute;
+  width: 40%;
+  height: 60%;
+  margin-top: 15%;
+  margin-left: 5%;
+  box-sizing: border-box;
+}
+.reveal_left_side p {
+  color: #fff;
+  line-height: 2;
+}
+/* slide section style */
+#slide {
+  position: relative;
+  background: black;
+  color: white;
+  width: 100%;
+  height: 100vh;
+  display: none;
+}
+.falcon1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("https://www.spacex.com/static/images/falcon-9/desktop/WebsiteF9Fairings_Render_Desktop.webp")
+    no-repeat center bottom;
+  background-size: cover;
+}
+.falcon2 {
+  position: absolute;
+  /* left: 100%; */
+  width: 100%;
+  height: 100%;
+  background: url("https://www.spacex.com/static/images/falcon-9/desktop/WebsiteF9S1_Render_Desktop.webp")
+    no-repeat center bottom;
+  background-size: cover;
+}
+.falcon3 {
+  position: absolute;
+  /* left: 200%; */
+  width: 100%;
+  height: 100%;
+  background: url("https://www.spacex.com/static/images/falcon-9/desktop/WebsiteF9S2_Render_Desktop.webp")
+    no-repeat center center;
+  background-size: cover;
+}
+.nav_slide {
+  position: relative;
+  width: 100%;
+  height: 40vh;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.dots {
+  position: relative;
+  width: 50%;
+  height: auto;
+  top: 50%;
+  text-align: center;
+  margin: auto;
+}
+.dot {
+  display: inline-block;
+  box-sizing: border-box;
+  background: #aaa;
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  margin: 20px 10px;
+  transition: background-color 0.6s ease;
+}
+.activeDot,
+.dot:hover {
+  background: #fff;
+}
+#slide .nav_slide {
+  top: 90%;
+}
+/* slide section text style */
+.falcon_text {
+  width: 35%;
+  height: auto;
+  margin: 10% 0 0 5%;
+}
+.falcon_text h2 {
+  font-size: 50px;
+  margin: 10px 0;
+}
+.falcon_text .sub_text {
+  margin: 20px 0;
+  font-size: 16px;
+  line-height: 2;
+}
+.falcon_text div {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  border-bottom: 1px solid #555;
+  padding: 20px 0;
+}
+.falcon_text div p {
+  font-size: 14px;
+}
+.falcon_text div p:nth-child(1) {
+  float: left;
+  font-weight: 600;
+}
+.falcon_text div p:nth-child(2) {
+  float: right;
+}
+/* story section style */
+.centerLine {
+  width: 45%;
+  height: 40%;
+  margin: 3% 0 0 5%;
+  box-sizing: border-box;
+  border-right: 2px solid #fff;
+}
+.centerText {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 20px 0;
+}
+.centerText span {
+  color: #aaa;
+  font-size: 13px;
+}
+#story .main_text {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+#story .main_text a {
+  display: inline-block;
+}
+#story .main_text a:nth-child(1) {
+  width: 210px;
+  margin: 0 5px;
+}
+#story .main_text a:nth-child(2) {
+  width: 210px;
+  margin: 0 5px;
+}
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

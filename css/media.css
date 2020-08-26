@@ -1,0 +1,177 @@
+@media screen and (min-width: 1251px) {
+  /* footer style */
+  .main_footer li {
+    width: 14.28%;
+    padding: 40px 0;
+  }
+}
+@media screen and (max-width: 1250px) {
+  /* footer style */
+  .footer .main_footer {
+    width: 70%;
+  }
+  .main_footer li:nth-child(1) {
+    width: 100%;
+    padding: 40px 0 10px 0;
+  }
+  .main_footer li {
+    width: 16.66%;
+    padding: 10px 0 40px 0;
+  }
+  /* main navigation style */
+  .smallview {
+    display: none;
+  }
+  .nav_item {
+    display: block;
+  }
+  /* sub page (rideshare) main info >fifth > style */
+  .progress_text {
+    display: none;
+  }
+  .progress_bar {
+    display: none;
+  }
+}
+@media screen and (max-width: 1100px) {
+  /* main navigation style */
+  .header .nav .nav_links .nav_logo {
+    position: fixed;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .nav_item {
+    display: none;
+  }
+  .smallview {
+    display: block;
+  }
+  /* sub page (rideshare) style */
+  #intro .main_text .select_section .select_item {
+    display: block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  /* sub page (rideshare) style */
+  /* second section style */
+  #second_ride {
+    height: auto;
+  }
+  #second_ride .main_stats {
+    width: 90%;
+  }
+  #second_ride .main_stats .stats {
+    width: 100%;
+    padding: 30px 20px;
+    display: block;
+  }
+}
+@media screen and (max-width: 900px) {
+  /* main_info_ slide show text style */
+  .mySlides .main_text {
+    width: 60%;
+    left: 5%;
+    margin-top: 30%;
+  }
+  .mySlides .main_text h2 {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .mySlides .main_text h1 {
+    font-size: 40px;
+    line-height: 1;
+  }
+  .mySlides .main_text p {
+    font-size: 14px;
+  }
+  /* footer style */
+  .footer .main_footer {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 700px) {
+  /* main_info section text style */
+  .main_info h1 {
+    font-size: 60px;
+  }
+  .main_info p {
+    font-size: 14px;
+  }
+  /* footer style */
+  .footer .main_footer {
+    width: 95%;
+  }
+  .main_footer li {
+    width: 15.26%;
+    padding: 10px 0 40px 0;
+  }
+  .main_footer li:nth-child(7) {
+    width: 23.66%;
+  }
+  /* main_info (intro) section text style */
+  #intro .main_text {
+    margin-top: 50%;
+    width: 90%;
+  }
+  /* main_info (second) section count style */
+  .main_stats .stats .count {
+    font-size: 70px;
+    padding: 70px 0px 0 0px;
+  }
+  .main_stats .stats .count_title {
+    font-size: 17px;
+    padding: 0 0px 70px 0px;
+  }
+  /* main_info_ slide show text style */
+  .falcon_text h2 {
+    font-size: 30px;
+    margin: 5px 0;
+  }
+  .falcon_text .sub_text {
+    margin: 12px 0;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  .falcon_text div {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    border-bottom: 1px solid #555;
+    padding: 10px 0;
+  }
+  .falcon_text div p {
+    font-size: 12px;
+  }
+  /* main_info (second) section count style */
+  #second .main_stats {
+    width: 90%;
+  }
+  /* sub page (rideshare) main info text style */
+  #intro #rideshare {
+    margin-top: 30%;
+    width: 80%;
+  }
+  .main_info #rideshare h1 {
+    font-size: 35px;
+  }
+
+  /* rideshare style */
+  .main_stats .stats h2 {
+    display: inline-block;
+    font-size: 27px;
+    margin: 5px;
+  }
+  .main_stats .stats i {
+    font-size: 60px;
+    margin: 10px;
+  }
+  #fifth .main_text h1 {
+    font-size: 30px;
+  }
+  #fifth .main_text p {
+    font-size: 13px;
+  }
+}

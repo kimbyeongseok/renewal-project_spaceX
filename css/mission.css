@@ -1,0 +1,23 @@
+/* main_info section style */
+#intro {
+  background: url("https://www.spacex.com/static/images/backgrounds/rideshare_feature.webp")
+    50% 0 no-repeat fixed;
+  background-size: cover;
+  color: white;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0;
+}
+#intro .main_text p {
+  width: 60%;
+  margin: auto;
+  line-height: 2;
+}
+#fifth {
+  background: url("https://www.spacex.com/static/images/mission/mission-slider-01.webp")
+    50% 0 no-repeat fixed;
+  background-size: cover;
+  color: white;
+  height: 100vh;
+  padding: 100px 0 0 0;
+}
